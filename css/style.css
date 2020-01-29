@@ -20,7 +20,8 @@ body {
     line-height : 1.8em;
     color       : #3d3d50;
     font-weight : 300;
-    background  : url("../img/pattern2.png") fixed;
+    /*background  : url("../img/pattern2.png") fixed;*/
+    background-color: #d6d6d6;
     }
 
 /* --------------------------------------
@@ -398,6 +399,8 @@ button:focus,
     top              : 5px;
     padding          : 0 8px;
     border-radius    : 3px;
+    align-self: end;
+    
     }
 
 .progress-item .progress-percent::before {

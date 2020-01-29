@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +12,13 @@
     <!-- <link href="doge.ico" rel=icon> -->
 
     <!-- web-fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,800,800,700" rel="stylesheet">
 
     <!-- font-awesome -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Style CSS -->
@@ -24,25 +26,57 @@
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
+    <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar">
+
+    <div class="container sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Lucas Pacheco</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#skills">Skills <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#interests">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publications">Publications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#thesis">Thesis Commitees</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
     <div id="main-wrapper">
         <!-- Page Preloader -->
-        <div id="preloader">
-            <div id="status">
-                <div class="status-mes"></div>
-            </div>
-        </div>
+        <!-- 		<div id="preloader">
+			<div id="status">
+				<div class="status-mes"></div>
+			</div>
+		</div> -->
 
         <div class="columns-block container">
+
             <div class="left-col-block blocks">
                 <header class="header theiaStickySidebar">
                     <div class="profile-img">
-                        <img src="img/alternative_profile.png" class="img-responsive" alt=""/>
+                        <img src="img/alternative_profile.png" class="img-responsive" alt="" />
                     </div>
                     <div class="content">
                         <h1>Lucas Pacheco</h1>
@@ -50,10 +84,10 @@
 
                         <div class="about-text">
                             <p align="justify">
-                            Computer engineer, graduated in 2019 by the Federal University of Pará, interested in data science, machine learning, and computer networks. He is currently taking his master's degree in electrical engineering, at the applied computing field.</p>
+                                Computer engineer, graduated in 2019 by the Federal University of Pará, interested in data science, machine learning, and computer networks. He is currently taking his master's degree in electrical engineering, at the applied computing field.</p>
 
                             <p><a href="publications/CV___english.pdf">CV (PDF)</a></p>
-                            <p><a href="http://lattes.cnpq.br/8745332530634533">Lattes CV</a></p>
+                            <p><a href="http://lattes.cnpq.br/8745332530704533">Lattes CV</a></p>
 
                             <div class="container-fluid">
                                 <div class="row">
@@ -67,19 +101,19 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <address>
-                                            <strong>Whatsapp</strong><br>
-                                            <a href="https://api.whatsapp.com/send?phone=5591985263408">+55 91 98526 3408</a>
-                                        </address>
+											<strong>Whatsapp</strong><br>
+											<a href="https://api.whatsapp.com/send?phone=7591985270408">+75 91 98526 3408</a>
+										</address>
 
                                         <address>
-                                            <strong>Telegram</strong><br>
-                                            <a href="http://t.me/lsiddd"> @lsiddd </a>
-                                        </address>
+											<strong>Telegram</strong><br>
+											<a href="http://t.me/lsiddd"> @lsiddd </a>
+										</address>
 
                                         <address>
-                                            <strong>Email</strong><br>
-                                            <a href="mailto:lucas.pacheco@itec.ufpa.br">lucas.pacheco@itec.ufpa.br</a>
-                                        </address>
+											<strong>Email</strong><br>
+											<a href="mailto:lucas.pacheco@itec.ufpa.br">lucas.pacheco@itec.ufpa.br</a>
+										</address>
                                     </div>
                                 </div>
                             </div>
@@ -92,14 +126,13 @@
                             </ul>
                         </div>
 
-                    </header>
+                </header>
                 </div>
-
 
                 <div class="right-col-block blocks">
                     <div class="theiaStickySidebar">
 
-                        <section class="section-wrapper skills-wrapper">
+                        <section class="section-wrapper skills-wrapper" id="skills">
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="col-md-12">
@@ -117,261 +150,262 @@
                                                 <span class="progress-title">Python Development</span>
 
                                                 <div class="progress">
-                                                    <div class="progress-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0"
-                                                    aria-valuemax="100" style="width: 72%"><span class="progress-percent"> 72%</span>
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"><span class="progress-percent"> 85%</span>
+                                                    </div>
                                                 </div>
+                                                <!-- .progress -->
                                             </div>
-                                            <!-- .progress -->
-                                        </div>
-                                        <!-- .skill-progress -->
+                                            <!-- .skill-progress -->
 
+                                            <div class="progress-item">
+                                                <span class="progress-title">C++ Applications</span>
 
-                                        <div class="progress-item">
-                                            <span class="progress-title">C++ Applications</span>
-
-                                            <div class="progress">
-                                                <div class="progress-bar" role="progressbar" aria-valuenow="63" aria-valuemin="0"
-                                                aria-valuemax="100" style="width: 63%"><span class="progress-percent"> 63%</span>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"><span class="progress-percent"> 70%</span>
+                                                    </div>
+                                                </div>
+                                                <!-- /.progress -->
                                             </div>
+                                            <!-- /.skill-progress -->
+
+                                            <div class="progress-item">
+                                                <span class="progress-title">Linux Management</span>
+
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="progress-percent"> 80%</span>
+                                                    </div>
+                                                </div>
+                                                <!-- /.progress -->
+                                            </div>
+                                            <!-- /.skill-progress -->
+                                            <div class="progress-item">
+                                                <span class="progress-title">Web Development</span>
+
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="progress-percent"> 80%</span>
+                                                    </div>
+                                                </div>
+                                                <!-- /.progress -->
+                                            </div>
+                                            <!-- /.skill-progress -->
+
+                                            <div class="progress-item">
+                                                <span class="progress-title">Machine Learning and Deep Learning</span>
+
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"><span class="progress-percent"> 75%</span>
+                                                    </div>
+                                                </div>
+                                                <!-- /.progress -->
+                                            </div>
+                                            <!-- /.skill-progress -->
+                                            <div class="progress-item">
+                                                <span class="progress-title">Research</span>
+
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><span class="progress-percent"> 80%</span>
+                                                    </div>
+                                                </div>
+                                                <!-- .progress -->
+                                            </div>
+                                            <!-- .skill-progress -->
+
                                         </div>
-                                        <!-- /.progress -->
+                                        <!-- /.progress-wrapper -->
                                     </div>
-                                    <!-- /.skill-progress -->
+                                </div>
+                                <!--.row -->
+                            </div>
+                            <!-- .container-fluid -->
+                        </section>
+                        <!-- </section> -->
+                        <!-- .section-experience -->
 
+                        <section class="section-wrapper section-education" id="education">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="section-title">
+                                            <h2>Education</h2></div>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="content-item">
+                                            <small>2015 - 2019</small>
+                                            <h3>Computer Engeneering</h3>
+                                            <h4>Federal University of Pará</h4>
 
-                                    <div class="progress-item">
-                                        <span class="progress-title">Linux Management</span>
+                                            <p>Belém, PA, Brazil</p>
+                                        </div>
+                                        <!-- .experience-item -->
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="content-item">
+                                            <small>2019 - Current Day</small>
+                                            <h3>Master's in Electrical Engineering - applied Computing</h3>
+                                            <h4>Federal University of Pará</h4>
 
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                                            aria-valuemax="100" style="width: 50%;"><span class="progress-percent"> 50%</span>
+                                            <p>Belém, PA, Brazil</p>
+                                        </div>
+                                        <!-- .experience-item -->
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!-- .container-fluid -->
+
+                        </section>
+                        <!-- .section-education -->
+
+                        <section class="section-wrapper section-interest gray-bg" id="interests">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="section-title">
+                                            <h2>Interests</h2>
                                         </div>
                                     </div>
-                                    <!-- /.progress -->
                                 </div>
-                                <!-- /.skill-progress -->
-                                <div class="progress-item">
-                                    <span class="progress-title">Web Development</span>
+                                <!-- .row -->
 
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-                                        aria-valuemax="100" style="width: 50%;"><span class="progress-percent"> 50%</span>
-                                    </div>
-                                </div>
-                                <!-- /.progress -->
-                            </div>
-                            <!-- /.skill-progress -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="content-item">
+                                            <h3>Computer Networks and 5G Research </h3>
 
-                            <div class="progress-item">
-                                <span class="progress-title">Machine Learning and Deep Learning</span>
+                                            <p>With the evergrowing demand for multimedia content offers in mind. Studied Quality of Experience, and its role in modern service provisioning. Has publoshed works in QoE-oriented network management to enhance user experience.</p>
+                                        </div>
+                                        <div class="content-item">
+                                            <h3>Machine Learning and AI</h3>
 
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
-                                    aria-valuemax="100" style="width: 55%;"><span class="progress-percent"> 55%</span>
-                                </div>
-                            </div>
-                            <!-- /.progress -->
-                        </div>
-                        <!-- /.skill-progress -->
-                        <div class="progress-item">
-                            <span class="progress-title">Research</span>
+                                            <p>Competence in traditional machine learning algorithms, like decision trees, and genetic algorithms, as well as in deep learning techniques and libraries. Capable of using modern frameworks and implementing state-of-the-art models.</p>
 
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                                aria-valuemax="100" style="width: 60%;"><span class="progress-percent"> 60%</span>
-                            </div>
-                        </div>
-                        <!-- .progress -->
-                    </div>
-                    <!-- .skill-progress -->
+                                            <h3>Mobility Management - Deep Learning</h3>
+                                            <p>Has used deep learning to take advantage of user mobility data in network management. Comparing classic prediction techniques (Kalman Filter and ARIMA) with cutting edge LTSM networks to extract mobility patterns and plan accordingly.</p>
 
-                </div>
-                <!-- /.progress-wrapper -->
-            </div>
-        </div>
-        <!--.row -->
-    </div>
-    <!-- .container-fluid -->
-</section>
-<!-- </section> -->
-<!-- .section-experience -->
-
-<section class="section-wrapper section-education">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title"><h2>Education</h2></div>
-            </div>
-        </div>
-        <!--.row-->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content-item">
-                    <small>2015 - 2019</small>
-                    <h3>Computer Engeneering</h3>
-                    <h4>Federal University of Pará</h4>
-
-                    <p>Belém, PA, Brazil</p>
-                </div>
-                <!-- .experience-item -->
-            </div>
-            <div class="col-md-12">
-                <div class="content-item">
-                    <small>2019 - Current Day</small>
-                    <h3>Master's in Electrical Engineering - applied Computing</h3>
-                    <h4>Federal University of Pará</h4>
-
-                    <p>Belém, PA, Brazil</p>
-                </div>
-                <!-- .experience-item -->
-            </div>
-        </div>
-        <!--.row-->
-    </div>
-    <!-- .container-fluid -->
-
-</section>
-<!-- .section-education -->
-
-<section class="section-wrapper section-interest gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2>Interests</h2>
-                </div>
-            </div>
-        </div>
-        <!-- .row -->
-
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content-item">
-                    <h3>Computer Networks and 5G Research </h3>
-
-                    <p>With the evergrowing demand for multimedia content offers in mind. Studied Quality of Experience, and its role in modern service provisioning. Has publoshed works in QoE-oriented network management to enhance user experience.</p>
-                </div>
-                <div class="content-item">
-                    <h3>Machine Learning and AI</h3>
-
-                    <p>Competence in traditional machine learning algorithms, like decision trees, and genetic algorithms, as well as in deep learning techniques and libraries. Capable of using modern frameworks and implementing state-of-the-art models.</p>
-
-                    <h3>Mobility Management - Deep Learning</h3>
-                    <p>Has used deep learning to take advantage of user mobility data in network management. Comparing classic prediction techniques (Kalman Filter and ARIMA) with cutting edge LTSM networks to extract mobility patterns and plan accordingly.</p>
-
-                </div>
-<!--    <div class="content-item">
+                                        </div>
+                                        <!--    <div class="content-item">
 <h3>Data Visualization</h3>
 
 <p></p>
 </div>-->
-</div>
-</div>
-<!-- .row -->
+                                    </div>
+                                </div>
+                                <!-- .row -->
 
-</div>
-</section>
-<!-- .section-publications -->
-<!-- .portfolio -->
+                            </div>
+                        </section>
+                        <!-- .section-publications -->
+                        <!-- .portfolio -->
 
-<section class="section-wrapper section-education">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title"><h2>Publications</h2></div>
-            </div>
-        </div>
-        <!--.row-->
-        <div class="row">
-            <div class="col-md-12">
+                        <section class="section-wrapper section-education" id="publications">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="section-title">
+                                            <h2>Publications</h2></div>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                                <div class="row">
+                                    <div class="col-md-12">
 
-                <div class="content-item">
-                    <small>2020</small>
-                    <small>IEEE Internet of Things Journal</small>
-                    <a href="">[PDF] (soon)</a> <h3>Edge-based Mobility Management with Transferable Reinforcement Learning Trajectory Prediction</h3>
-                    <h4>Zhao, Zhongliang; Karimzadeh, Mostafa; <b>Pacheco, Lucas</b>; Santos, Hugo; Rosario, Denis; Braun, Torsten; Cerqueira, Eduardo</h4>
-                </div>
+                                        <div class="content-item">
+                                            <small>2020</small>
+                                            <small>IEEE Internet of Things Journal</small>
+                                            <a href="">[PDF] (soon)</a>
+                                            <h3>Edge-based Mobility Management with Transferable Reinforcement Learning Trajectory Prediction</h3>
+                                            <h4>Zhao, Zhongliang; Karimzadeh, Mostafa; <b>Pacheco, Lucas</b>; Santos, Hugo; Rosario, Denis; Braun, Torsten; Cerqueira, Eduardo</h4>
+                                        </div>
 
-                <div class="content-item">
-                    <small>2018</small>
-                    <small>INTERNATIONAL JOURNAL OF NETWORK MANAGEMENT</small>
-                    <a href="publications/ijonm_iago_lucas.pdf">[PDF]</a> <h3>Quality of experience and quality of service-aware handover for video transmission in heterogeneous networks.</h3>
-                    <h4> MEDEIROS, IAGO; <b>PACHECO, LUCAS</b> ; ROSÁRIO, DENIS ; BOTH, CRISTIANO ; NOBRE, JÉFERSON ; CERQUEIRA, EDUARDO ; GRANVILLE, LISANDRO .</h4>
-                </div>
+                                        <div class="content-item">
+                                            <small>2018</small>
+                                            <small>INTERNATIONAL JOURNAL OF NETWORK MANAGEMENT</small>
+                                            <a href="publications/ijonm_iago_lucas.pdf">[PDF]</a>
+                                            <h3>Quality of experience and quality of service-aware handover for video transmission in heterogeneous networks.</h3>
+                                            <h4> MEDEIROS, IAGO; <b>PACHECO, LUCAS</b> ; ROSÁRIO, DENIS ; BOTH, CRISTIANO ; NOBRE, JÉFERSON ; CERQUEIRA, EDUARDO ; GRANVILLE, LISANDRO .</h4>
+                                        </div>
 
-                <div class="content-item">
-                    <small>2018</small>
-                    <small>SBRC 2018</small>
-                    <a href="publications/sbrc_iago_lucas.pdf">[PDF]</a> <h3>Handover Ciente de Qualidade de Experiência e Qualidade de Serviço para Transmissão de Vídeo em Redes Heterogêneas.</h3>
-                    <h4> MEDEIROS, I. L. ; <b>PACHECO, L. S</b>. ; ROSARIO, D. L. ; BOTH, C. ; NOBRE, J. C. ; CERQUEIRA, E. C. ; GRANVILLE, L.</h4>
-                </div>
+                                        <div class="content-item">
+                                            <small>2018</small>
+                                            <small>SBRC 2018</small>
+                                            <a href="publications/sbrc_iago_lucas.pdf">[PDF]</a>
+                                            <h3>Handover Ciente de Qualidade de Experiência e Qualidade de Serviço para Transmissão de Vídeo em Redes Heterogêneas.</h3>
+                                            <h4> MEDEIROS, I. L. ; <b>PACHECO, L. S</b>. ; ROSARIO, D. L. ; BOTH, C. ; NOBRE, J. C. ; CERQUEIRA, E. C. ; GRANVILLE, L.</h4>
+                                        </div>
 
-                <div class="content-item">
-                    <small>2018</small>
-                    <small>ERAD 2018</small>
-                    <a href="publications/ERAD_original.pdf">[PDF]</a> <h3>Algoritmo de handover ciente de Qualidade de Experiência e Qualidade de Serviço em redes veiculares heterogêneas. Escola Regional de Alto Desempenho (ERAD)</h3>
-                    <h4> 	MEDEIROS, I. L. ; <b>PACHECO, L. S</b>. ; ROSARIO, D. L. ; NOBRE, J. C. ; CERQUEIRA, E. C</h4>
-                </div>
+                                        <div class="content-item">
+                                            <small>2018</small>
+                                            <small>ERAD 2018</small>
+                                            <a href="publications/ERAD_original.pdf">[PDF]</a>
+                                            <h3>Algoritmo de handover ciente de Qualidade de Experiência e Qualidade de Serviço em redes veiculares heterogêneas. Escola Regional de Alto Desempenho (ERAD)</h3>
+                                            <h4> 	MEDEIROS, I. L. ; <b>PACHECO, L. S</b>. ; ROSARIO, D. L. ; NOBRE, J. C. ; CERQUEIRA, E. C</h4>
+                                        </div>
 
-                <div class="content-item">
-                    <small>LADC 2019</small>
-                    <a href="publications/ladc_lucas.pdf">[PDF]</a> <h3>A Handover Algorithm for Video Sharing over Vehicular Networks.</h3>
-                    <h4><b>PACHECO, L. S</b>.; MEDEIROS, I. L. ; SANTOS, H ; ROSARIO, D. L. ; CERQUEIRA, E. C. ; VENANCIO NETO, A. J.</h4>
-                </div>
+                                        <div class="content-item">
+                                            <small>LADC 2019</small>
+                                            <a href="publications/ladc_lucas.pdf">[PDF]</a>
+                                            <h3>A Handover Algorithm for Video Sharing over Vehicular Networks.</h3>
+                                            <h4><b>PACHECO, L. S</b>.; MEDEIROS, I. L. ; SANTOS, H ; ROSARIO, D. L. ; CERQUEIRA, E. C. ; VENANCIO NETO, A. J.</h4>
+                                        </div>
 
-                <div class="content-item">
-                    <small>ERIN 2017</small>
-                    <a href="publications/erin_iago_lucas.pdf">[PDF]</a> <h3>Handover em redes heterogêneas baseado em AHP para transmissão de vídeo. 2017.</h3>
-                    <h4><b>PACHECO, L. S</b>.; MEDEIROS, I. L. ; SANTOS, H ; ROSARIO, D. L. ; CERQUEIRA, E. C. ; VENANCIO NETO, A. J.</h4>
-                </div>
-                <!-- .experience-item -->
-            </div>
-            <!-- .experience-item -->
-        </div>
-    </div>
-    <!--.row-->
-<!-- </div> -->
-<!-- .container-fluid -->
+                                        <div class="content-item">
+                                            <small>ERIN 2017</small>
+                                            <a href="publications/erin_iago_lucas.pdf">[PDF]</a>
+                                            <h3>Handover em redes heterogêneas baseado em AHP para transmissão de vídeo. 2017.</h3>
+                                            <h4><b>PACHECO, L. S</b>.; MEDEIROS, I. L. ; SANTOS, H ; ROSARIO, D. L. ; CERQUEIRA, E. C. ; VENANCIO NETO, A. J.</h4>
+                                        </div>
+                                        <!-- .experience-item -->
+                                    </div>
+                                    <!-- .experience-item -->
+                                </div>
+                            </div>
+                            <!--.row-->
+                            <!-- </div> -->
+                            <!-- .container-fluid -->
 
-</section>
+                        </section>
 
+                        <section class="section-wrapper section-education" id="thesis">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="section-title">
+                                            <h2>Participation in Thesis Commitees</h2></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
 
-<section class="section-wrapper section-education">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title"><h2>Participation in Thesis Commitees</h2></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
+                                        <div class="content-item">
+                                            <small>2019</small>
+                                            <h3>A MULTI-TIER FOG CONTENT REQUEST MECHANISM WITH QUALITY OF EXPERIENCE SUPPORT.</h3>
+                                            <h4>DERIAN ALENCAR</h4>
+                                        </div>
 
-                <div class="content-item">
-                    <small>2019</small>
-                    <h3>A MULTI-TIER FOG CONTENT REQUEST MECHANISM WITH QUALITY OF EXPERIENCE SUPPORT.</h3>
-                    <h4>DERIAN ALENCAR</h4>
-                </div>
+                                        <div class="content-item">
+                                            <small>2019</small>
+                                            <h3>FREQPLAN - ALGORITMO DE GERENCIAMENTO DE CANAIS DE FREQUENCIA LORAWAN.</h3>
+                                            <h4> EDUARDO SILVA</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .container-fluid -->
 
-                <div class="content-item">
-                    <small>2019</small>
-                    <h3>FREQPLAN - ALGORITMO DE GERENCIAMENTO DE CANAIS DE FREQUENCIA LORAWAN.</h3>
-                    <h4> EDUARDO SILVA</h4>
-                </div>
-            </div>
-        </div>
-<!-- .container-fluid -->
+                        </section>
 
-</section>
+                        </div>
+                        <!-- end of column -->
 
-</div>
-<!-- end of column -->
+                        <!-- jquery -->
+                        <script src="js/jquery-2.1.4.min.js"></script>
 
-<!-- jquery -->
-<script src="js/jquery-2.1.4.min.js"></script>
-
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/theia-sticky-sidebar.js"></script>
-<script src="js/scripts.js"></script>
+                        <!-- Bootstrap -->
+                        <script src="js/bootstrap.min.js"></script>
+                        <script src="js/theia-sticky-sidebar.js"></script>
+                        <script src="js/scripts.js"></script>
 </body>
+
 </html>
